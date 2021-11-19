@@ -52,23 +52,23 @@ public class calculatorIfElse {
 
         if (operator.equals("+")) {
             double result = firstValue + secondValue;
-            System.out.println(firstValue + " + " + secondValue + " = " + result );
+            System.out.println(firstValue + "+" + secondValue + " = " + result );
         }
         else if (operator.equals("-")) {
             double result = firstValue - secondValue;
-            System.out.println(firstValue + " - " + secondValue + " = " + result );
+            System.out.println(firstValue + "-" + secondValue + " = " + result );
         }
-        else if (operator.equals(" * ")) {
+        else if (operator.equals("*")) {
             double result = firstValue * secondValue;
-            System.out.println(firstValue + " * " + secondValue + " = " + result );
+            System.out.println(firstValue + "*" + secondValue + " = " + result );
         }
-        else if (operator.equals(" / ")) {
+        else if (operator.equals("/")) {
             double result = firstValue / secondValue;
-            System.out.println(firstValue + " / " + secondValue + " = " + result);
+            System.out.println(firstValue + "/" + secondValue + " = " + result);
         }
-        else if (operator.equals(" % ")){
+        else if (operator.equals("%")){
             double result = firstValue % secondValue;
-            System.out.println(firstValue + " % " + secondValue + " = " + result );
+            System.out.println(firstValue + "%" + secondValue + " = " + result );
         }
     }
 }
